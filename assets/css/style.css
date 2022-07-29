@@ -39,13 +39,15 @@ button {
     border-radius: 10px;
 }
 
-#flip,
-#roll {
-    background: linear-gradient(to bottom left, lightblue, white);
+
+#flip-penny,
+#clear-score {
+    font-family: papyrus, san-serif;
+    color: #0000ff;    background-image: linear-gradient(to right, red,orange,yellow,green,blue,indigo,violet);
 }
 
-#flip:hover,
-#roll:hover {
+#flip-penny:hover,
+#clear-score:hover {
     background: linear-gradient(to bottom left, darkblue, lightblue);
 }
 
@@ -63,6 +65,7 @@ th,
 td {
     border: 1px solid darkorange;
     margin: 0 auto;
+    background: green
 }
 
 td {
